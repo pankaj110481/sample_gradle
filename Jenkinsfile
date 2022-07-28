@@ -35,7 +35,7 @@ pipeline
                                                 sh 'ls'
                                                 sh 'pwd'
                                                 
-                                                sh 'gradlew assembleDebug'
+                                                sh './gradlew assembleDebug'
                                                  
                                          }
                                         
