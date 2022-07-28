@@ -49,7 +49,8 @@ pipeline
                             {
                                 success 
                                 { 
-                                   // archiveArtifacts artifacts: '**/*.apk', fingerprint: true
+                                   
+                                    archiveArtifacts artifacts: '**/*.apk', fingerprint: true
                                 }
                             }
               
