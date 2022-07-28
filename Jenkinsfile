@@ -34,7 +34,7 @@ pipeline
                                                 
                                                 sh 'ls'
                                                 sh 'pwd'
-                                                sh 'whoami'
+                                                
                                                 sh 'gradlew assembleDebug'
                                                  
                                          }
